@@ -24,12 +24,12 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/crossplane-contrib/provider-openstack/apis"
-	"github.com/crossplane-contrib/provider-openstack/apis/v1alpha1"
-	"github.com/crossplane-contrib/provider-openstack/config"
-	"github.com/crossplane-contrib/provider-openstack/internal/clients"
-	"github.com/crossplane-contrib/provider-openstack/internal/controller"
-	"github.com/crossplane-contrib/provider-openstack/internal/features"
+	"github.com/rforgac/provider-openstack/apis"
+	"github.com/rforgac/provider-openstack/apis/v1alpha1"
+	"github.com/rforgac/provider-openstack/config"
+	"github.com/rforgac/provider-openstack/internal/clients"
+	"github.com/rforgac/provider-openstack/internal/controller"
+	"github.com/rforgac/provider-openstack/internal/features"
 )
 
 func main() {

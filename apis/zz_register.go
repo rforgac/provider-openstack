@@ -10,14 +10,14 @@ package apis
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	v1alpha1 "github.com/crossplane-contrib/provider-openstack/apis/compute/v1alpha1"
-	v1alpha1containerinfra "github.com/crossplane-contrib/provider-openstack/apis/containerinfra/v1alpha1"
-	v1alpha1dns "github.com/crossplane-contrib/provider-openstack/apis/dns/v1alpha1"
-	v1alpha1identity "github.com/crossplane-contrib/provider-openstack/apis/identity/v1alpha1"
-	v1alpha1networking "github.com/crossplane-contrib/provider-openstack/apis/networking/v1alpha1"
-	v1alpha1objectstorage "github.com/crossplane-contrib/provider-openstack/apis/objectstorage/v1alpha1"
-	v1alpha1apis "github.com/crossplane-contrib/provider-openstack/apis/v1alpha1"
-	v1beta1 "github.com/crossplane-contrib/provider-openstack/apis/v1beta1"
+	v1alpha1 "github.com/rforgac/provider-openstack/apis/compute/v1alpha1"
+	v1alpha1containerinfra "github.com/rforgac/provider-openstack/apis/containerinfra/v1alpha1"
+	v1alpha1dns "github.com/rforgac/provider-openstack/apis/dns/v1alpha1"
+	v1alpha1identity "github.com/rforgac/provider-openstack/apis/identity/v1alpha1"
+	v1alpha1networking "github.com/rforgac/provider-openstack/apis/networking/v1alpha1"
+	v1alpha1objectstorage "github.com/rforgac/provider-openstack/apis/objectstorage/v1alpha1"
+	v1alpha1apis "github.com/rforgac/provider-openstack/apis/v1alpha1"
+	v1beta1 "github.com/rforgac/provider-openstack/apis/v1beta1"
 )
 
 func init() {

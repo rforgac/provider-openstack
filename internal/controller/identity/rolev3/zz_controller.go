@@ -18,7 +18,7 @@ import (
 	"github.com/upbound/upjet/pkg/terraform"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	v1alpha1 "github.com/crossplane-contrib/provider-openstack/apis/identity/v1alpha1"
+	v1alpha1 "github.com/rforgac/provider-openstack/apis/identity/v1alpha1"
 )
 
 // Setup adds a controller that reconciles RoleV3 managed resources.

@@ -1,4 +1,4 @@
-module github.com/crossplane-contrib/provider-openstack
+module github.com/rforgac/provider-openstack
 
 go 1.19
 
