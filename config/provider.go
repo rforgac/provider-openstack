@@ -8,16 +8,16 @@ import (
 	// Note(turkenh): we are importing this to embed provider schema document
 	_ "embed"
 
-	"github.com/crossplane-contrib/provider-openstack/config/compute"
-	"github.com/crossplane-contrib/provider-openstack/config/containerinfra"
-	"github.com/crossplane-contrib/provider-openstack/config/dns"
-	"github.com/crossplane-contrib/provider-openstack/config/networking"
+	"github.com/rforgac/provider-openstack/config/compute"
+	"github.com/rforgac/provider-openstack/config/containerinfra"
+	"github.com/rforgac/provider-openstack/config/dns"
+	"github.com/rforgac/provider-openstack/config/networking"
 	ujconfig "github.com/upbound/upjet/pkg/config"
 )
 
 const (
 	resourcePrefix = "openstack"
-	modulePath     = "github.com/crossplane-contrib/provider-openstack"
+	modulePath     = "github.com/rforgac/provider-openstack"
 )
 
 //go:embed schema.json
